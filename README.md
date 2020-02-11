@@ -1,4 +1,5 @@
 # saber-bar-chart
+created by: Chad Sterling
 
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
