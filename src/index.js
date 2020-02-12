@@ -1,4 +1,10 @@
 import React, {Component} from 'react'
+import SaberBarChart from "./SaberBarChart/SaberBarChart.js";
+
+export{
+SaberBarChart,
+}
+
 
 export default class extends Component {
   render() {
