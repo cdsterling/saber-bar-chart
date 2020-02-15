@@ -29,7 +29,7 @@ in order to use the barchart, it requires data to be set up in a specific way
     * value - this is the value your bar represents. Note that bars are displayed relative to each other, so no need to include units, just a number value
     * details - this is an object that contains key value pairs for information about the object in question. When the bar is clicked on, this is the data tha is displayed
   * Here's an example of what the bar Data should look like:
-    * ``` 
+``` 
     barData=[
     {
         label: "EF76 Nebulon-B escort frigate",
@@ -54,16 +54,17 @@ in order to use the barchart, it requires data to be set up in a specific way
         },
     },        
     ]
-    ```
+```
+
     * This essentially gives you 2 bars and the details that will pop up when the user clicks on either of the bars
 
  * so in order to get your Saber Bar Chart going, just pass your 2 parameters into the bar chart and let me do the rest:
-   * ```  
+```  
    <SaberBarChart
         ColorArray = {this.colors}
         Bars = {this.barData}
       /> 
-      ```
+```
     * Note: the properties are named *ColorArray* and *Bars*
 
 Voila
