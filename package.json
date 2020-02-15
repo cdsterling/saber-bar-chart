@@ -30,11 +30,14 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
-  "author": "",
-  "homepage": "",
+  "author": "Chad Sterling",
+  "homepage": "https://github.com/cdsterling/saber-bar-chart",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/cdsterling/saber-bar-chart",
   "keywords": [
-    "react-component"
+    "react-component",
+    "lightsaber",
+    "barchart",
+    "kickstart academy"
   ]
 }
