@@ -56,16 +56,18 @@ in order to use the barchart, it requires data to be set up in a specific way
     ]
 ```
 
-    * This essentially gives you 2 bars and the details that will pop up when the user clicks on either of the bars
+  * This essentially gives you 2 bars and the details that will pop up when the user clicks on either of the bars
 
- * so in order to get your Saber Bar Chart going, just pass your 2 parameters into the bar chart and let me do the rest:
+  * so in order to get your Saber Bar Chart going, just pass your 2 parameters into the bar chart and let me do the rest:
+
 ```  
    <SaberBarChart
         ColorArray = {this.colors}
         Bars = {this.barData}
       /> 
 ```
-    * Note: the properties are named *ColorArray* and *Bars*
+
+  * Note: the properties are named *ColorArray* and *Bars*
 
 Voila
 
