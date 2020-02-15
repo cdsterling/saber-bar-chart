@@ -16,7 +16,7 @@ Features:
 * this is in react, so all you gotta do is drop this into the middle of your project and you're good to go in style
 * mousing over any bar in your graph gives a cool lightsaber sound effect!!
 
-![here's a gif of what it could look like](./saber-bar-chart-demo.gif "Saber Bar Chart")
+![here's a gif of what it could look like](./saber-bar-chart-demo2.gif "Saber Bar Chart")
 
 Requirements:
 in order to use the barchart, it requires data to be set up in a specific way
