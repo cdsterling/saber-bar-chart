@@ -16,12 +16,17 @@ Features:
 * this is in react, so all you gotta do is drop this into the middle of your project and you're good to go in style
 * mousing over any bar in your graph gives a cool lightsaber sound effect!!
 
+![here's a gif of what it could look like](./saber-bar-chart-demo.gif "Saber Bar Chart")
+
 Requirements:
 in order to use the barchart, it requires data to be set up in a specific way
 # Color Array
   * this is an array of colors (represented as strings). these colors will represent the colors of the bars in your graph. Note that if you have more bars than colors in your color array, the colors will just repeat from the begining. You want striping? Just use 2 colors. Here is my example from the demo
     * colors = ["red", "green", "blue", "purple"]
   * this array is then passed into the *ColorArray* property in your SaberBarChart
+
+![bars look like light sabers when moused over](./saber-bar-chart-demo1.png "Mouse Over Bars for lightsaber effect and sound")
+
 # Bar Data
   * this is an list of objects that contain information about the bars in your data
   * Each object in your list should contain 3 key value pairs:
@@ -57,6 +62,8 @@ in order to use the barchart, it requires data to be set up in a specific way
 ```
 
   * This essentially gives you 2 bars and the details that will pop up when the user clicks on either of the bars
+
+  ![click on bar to get an alert popup](./saber-bar-chart-demo2.png "Click on Bar to get a popup")
 
   * so in order to get your Saber Bar Chart going, just pass your 2 parameters into the bar chart and let me do the rest:
 
